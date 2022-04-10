@@ -1,0 +1,130 @@
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    body {
+        width: 520px;
+    }
+
+    #menu ul {
+        height: 40px;
+    }
+
+    #menu ul li {
+        width: 75px;
+    }
+
+    #menu ul li>.icon {
+        display: none;
+        position: absolute;
+    }
+
+    #menu ul li:hover .icon {
+        display: block;
+    }
+    
+    .title {
+        font-size: 32px;
+    }
+
+    .font {
+        display: none !important;
+    }
+
+    .cake-desc {
+        display: none;
+    }
+
+    .img-product {
+        margin-left: 30%;
+        width: 40%;
+        height: auto;
+    }
+
+    .more {
+        font-size: 30px;
+    }
+
+    .about-end {
+        font-size: 15px;
+    }
+
+    .cach-dong {
+        width: 0px;
+        height: 0px;
+    }
+
+    .menudd.responsive {position: relative;}
+    .menudd.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+}
+
+/* For tablet */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        width: 750px;
+    }
+
+    #menu ul li {
+        width: 130px;
+    }
+
+    .title {
+        font-size: 37px;
+    }
+
+    .font {
+        font-size: 30px;
+    }
+
+    .font-in {
+        font-size: 24px;
+    }
+
+    .cake-desc {
+        font-size: 25px;
+    }
+
+    .icon {
+        display: none !important;
+    }
+
+    .img-product {
+        margin-left: 30.5%;
+        width: 40%;
+        height: auto;
+    }
+
+    .more {
+        font-size: 30px;
+    }
+
+    .about-end {
+        font-size: 17px;
+    }
+
+    .cach-dong {
+        width: 0px;
+        height: 0px;
+    }
+
+    .nutrition {
+        width: 97%;
+        font-size: 25px;
+    }
+
+    .form {
+        width: 95%;
+    }
+
+}
+
+/* For pc */
+@media screen and (min-width: 992px) {
+    .icon {
+        display: none !important;
+    }    
+}
+

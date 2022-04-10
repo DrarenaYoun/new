@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    width: 1124px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: rgb(40, 140, 230);
+    background-image: url("https://i.pinimg.com/564x/cb/5a/db/cb5adb8d2908bf127f8b1de6de274593.jpg");
+}
+
+#menu ul {
+    list-style-type: none;
+    background-image: url("https://i.pinimg.com/564x/34/42/17/344217fd7fd26b26f1b3c019f4f6960d.jpg");
+    text-align: center;
+}
+
+#menu ul li {
+    color: wheat;
+    display: inline-table;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+#menu ul li a {
+    color: wheat;
+    text-decoration: none;
+    display: block;
+}
+
+#menu ul li a:hover {
+    background: #f1f1f1;
+    color: #333;
+}
+
+#menu ul li>.loai-banh {
+    display: none;
+    position: absolute;
+}
+
+#menu ul li:hover .loai-banh {
+    display: block;
+}
+
+img {
+    margin-left: 30%;
+    display: block;
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+    text-align: center
+}
+
+.cach-dong {
+    width: 0px;
+    height: 5px;
+}
+
+.read-more a {
+    text-decoration: none;
+    color: violet;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.5rem;
+}

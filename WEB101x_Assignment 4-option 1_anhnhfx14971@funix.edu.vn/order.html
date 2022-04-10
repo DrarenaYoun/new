@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chi's Cake blog</title>
+    <link rel="stylesheet" type="text/css" href="./order.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="cach-dong"></div>
+        <h1 style="text-align:center; color: blueviolet">Chi's Cake blog</h1>
+        <div class="cach-dong"></div>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <h3><a href="./index.html" class="font">Home</a></h3>
+                </li>
+                <li>
+                    <h3><a href="#" class="font">Product</h3></a>
+                        <ul class="loai-banh">
+                            <li>
+                                <h4><a href="./details-1.html" class="font-in">Classic Yellow Cake</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="./details-2.html" class="font-in">Chocolate Bundt Cake</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="./details-3.html" class="font-in">Triple Berry Pie</a></h4>
+                            </li>
+                            <li>
+                                <h4><a href="./details-4.html" class="font-in">Tres Leches Cake</a></h4>
+                            </li>
+                        </ul>
+                </li>
+                <li>
+                    <h3><a href="./contact.html" class="font">Contact</a></h3>
+                </li>
+                <li>
+                    <h3><a href="./order.html" class="font">Order</a></h3>
+                </li>
+                <li>
+                    <h3><a href="./about.html" class="font">About</h3></a>
+                </li>
+                <li class="icon">
+                    <a href="javascript:void(0);">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+            </div>
+    </header>
+    <br>
+    <main>
+
+        <div class="main">
+
+            <form action="" method="POST" class="form" id="form-1">
+                <h3 class="heading">Order</h3>
+
+                <div class="spacer"></div>
+
+                <div class="form-group">
+                    <label for="choose-cake" class="form-label">Choose Cake</label>
+                    <select class="form-control" id="choose-cake" name="choose-cake">
+                        <option value="">--- Select cake ---</option>
+                        <option value="ClassicYellowCake">Classic Yellow Cake</option>
+                        <option value="CoconutBundtCake">Coconut Bundt Cake</option>
+                        <option value="TripleBerryPie">Triple Berry Pie</option>
+                        <option value="TresLechesCake">Tres Leches Cake</option>
+                    </select>
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="fullname" class="form-label">Full Name</label>
+                    <input id="fullname" name="fullname" type="text" placeholder="VD: Nguyễn Văn A" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <input id="message" name="message" placeholder="VD: Happy birthday, Peter!" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="includes" class="form-label">Includes</label>
+                    <input id="includes1" name="includes" type="checkbox">
+                    <label for="includes1">Candle</label>
+                    <input id="includes2" name="includes" type="checkbox">
+                    <label for="includes2">Firework</label>
+                    <input id="includes3" name="includes" type="checkbox">
+                    <label for="includes3">Toys</label>
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="time" class="form-label">Deliver date</label>
+                    <input id="time" name="time" type="date" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="place" class="form-label">Deliver to</label>
+                    <textarea id="place" name="place" placeholder="Nhập địa chỉ giao hàng" class="form-control" rows="5" cols="20"></textarea>
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="call" class="form-label">Call before deliver?</label>
+                    <select class="form-control">
+                        <option selected="selected">No</option>
+                        <option>Yes</option>
+                    </select>
+                    <span class="form-message"></span>
+                </div>
+
+                <button class="form-submit" type="button" id="submit-button">Order now</button>
+            </form>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="dien-dan">
+            <h5>
+                <p><a href="./about.html" style="color: blueviolet;" class="about-end">&copy; 2023 by Chi's Cake</a></p>
+            </h5>
+        </div>
+        <div class="cach-dong"></div>
+    </footer>
+    <script src="./order.js"></script>
+</body>
+
+</html>
